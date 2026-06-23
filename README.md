@@ -3,6 +3,7 @@
 An immersive AI-powered Eye Tracking AR experience built using MediaPipe Face Mesh, HTML5 Canvas, CSS3, and JavaScript.
 Track your face and eye movements in real time while generating futuristic laser beams, matrix-style animations, particle effects, dynamic themes, and audio-reactive visuals.
 
+---
 ##🤖 Live demo
 ```bash
 https://github.com/codertheashish/AI-Connect.git
