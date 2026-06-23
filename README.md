@@ -6,7 +6,7 @@ Track your face and eye movements in real time while generating futuristic laser
 ---
 ##🤖 Live demo
 ```bash
-https://github.com/codertheashish/AI-Connect.git
+https://codertheashish.github.io/AR-Eye-Tracking
 ```
 ---
 
