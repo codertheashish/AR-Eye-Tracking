@@ -150,4 +150,4 @@ https://www.linkedin.com/in/ashish-kumar-prajapati-3b6858301
 ---
 
 ⭐ If you found this project useful, consider giving it a star on GitHub!
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ac317b28-40df-4cb4-b2ad-22788dedccd7" />
+Quickdraw Test
