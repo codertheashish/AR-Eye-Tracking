@@ -1,58 +1,61 @@
 # 👁️ Advanced Eye Tracking AR
 
-An immersive AI-powered Eye Tracking AR experience built using MediaPipe Face Mesh, HTML5 Canvas, CSS3, and JavaScript.
+An immersive AI-powered Eye Tracking AR experience built using **MediaPipe Face Mesh, HTML5 Canvas, CSS3, and JavaScript**.
 Track your face and eye movements in real time while generating futuristic laser beams, matrix-style animations, particle effects, dynamic themes, and audio-reactive visuals.
 
 ---
-##🤖 Live demo
-```bash
-https://codertheashish.github.io/AR-Eye-Tracking
+
+## 🌐 Live Demo
+
+```text
+https://codertheashish.github.io/AR-Eye-Tracking/
 ```
+
 ---
 
 ## ✨ Features
 
-- 👁️ Real-Time Eye Tracking
-- 🤖 AI Face Mesh Detection
-- ⚡ Dynamic Eye Laser Effects
-- 🌈 Multiple Visual Themes
-- 🌌 Matrix Rain Background
-- ✨ Interactive Particle System
-- 🔊 Audio Reactive Effects
-- 📊 FPS Monitoring
-- 🎨 Glassmorphism UI
-- 📷 Webcam-Based Tracking
-- 📱 Responsive Design
+* 👁️ Real-Time Eye Tracking
+* 🤖 AI Face Mesh Detection
+* ⚡ Dynamic Eye Laser Effects
+* 🌈 Multiple Visual Themes
+* 🌌 Matrix Rain Background
+* ✨ Interactive Particle System
+* 🔊 Audio Reactive Effects
+* 📊 FPS Monitoring
+* 🎨 Glassmorphism UI
+* 📷 Webcam-Based Tracking
+* 📱 Responsive Design
 
 ---
 
 ## 🎨 Available Themes
 
-- 🌈 Rainbow
-- 💜 Cyberpunk
-- 🌋 Lava
-- 🌊 Ocean
-- 🌌 Galaxy
+* 🌈 Rainbow
+* 💜 Cyberpunk
+* 🌋 Lava
+* 🌊 Ocean
+* 🌌 Galaxy
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|------------|---------|
-| HTML5 | Structure |
-| CSS3 | Styling |
-| JavaScript | Logic & Effects |
+| Technology          | Purpose             |
+| ------------------- | ------------------- |
+| HTML5               | Structure           |
+| CSS3                | Styling             |
+| JavaScript          | Logic & Effects     |
 | MediaPipe Face Mesh | Face & Eye Tracking |
-| Canvas API | Visual Rendering |
-| Web Audio API | Sound Effects |
+| Canvas API          | Visual Rendering    |
+| Web Audio API       | Sound Effects       |
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-AI-Connect/
+AR-Eye-Tracking/
 │
 ├── index.html
 ├── style.css
@@ -62,21 +65,19 @@ AI-Connect/
 
 ---
 
-
-### Clone Repository
+## 📥 Clone Repository
 
 ```bash
 https://github.com/codertheashish/AR-Eye-Tracking
 ```
 
-
 ---
 
-## 🎮 How To Use
+## 🚀 How To Use
 
 1. Open the website.
 2. Click **Dive In**.
-3. Allow camera permission.
+3. Allow camera permissions.
 4. Move your face and eyes.
 5. Watch eye lasers, particles, and matrix effects react in real time.
 6. Switch themes from the bottom control panel.
@@ -85,43 +86,49 @@ https://github.com/codertheashish/AR-Eye-Tracking
 
 ## 🌟 Main Highlights
 
-### Eye Tracking
+### 👁️ Eye Tracking
+
 Tracks eye position and iris movement using MediaPipe Face Mesh.
 
-### Laser Effects
+### ⚡ Laser Effects
+
 Projects dynamic laser beams from both eyes based on head direction.
 
-### Matrix Background
+### 🌌 Matrix Background
+
 Animated matrix rain reacts to movement speed.
 
-### Particle Engine
+### ✨ Particle Engine
+
 Creates real-time glowing particle effects.
 
-### Audio Engine
+### 🔊 Audio Engine
+
 Generates dynamic sound based on face movement intensity.
 
-### Theme Engine
+### 🎨 Theme Engine
+
 Switch instantly between multiple visual styles.
 
 ---
 
 ## ⚠️ Requirements
 
-- Chrome (Recommended)
-- Webcam Access
-- Internet Connection
-- Hardware Acceleration Enabled
+* Google Chrome (Recommended)
+* Webcam Access
+* Internet Connection
+* Hardware Acceleration Enabled
 
 ---
 
 ## 🔮 Future Improvements
 
-- Hand Gesture Control
-- Voice Commands
-- AR Object Interaction
-- Head Pose Analytics
-- Multiplayer Experience
-- VR Support
+* ✋ Hand Gesture Control
+* 🎤 Voice Commands
+* 🥽 AR Object Interaction
+* 📊 Head Pose Analytics
+* 👥 Multiplayer Experience
+* 🕶️ VR Support
 
 ---
 
@@ -135,11 +142,11 @@ This project is licensed under the MIT License.
 
 ### Ashish Kumar Prajapati
 
-- GitHub:
+* GitHub:
 https://github.com/codertheashish
-- LinkedIn:
+* LinkedIn:
 https://www.linkedin.com/in/ashish-kumar-prajapati-3b6858301
 
 ---
 
-⭐ If you like this project, give it a star on GitHub.
+⭐ If you found this project useful, consider giving it a star on GitHub!
