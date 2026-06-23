@@ -1,117 +1,129 @@
 # 👁️ Advanced Eye Tracking AR
 
-A real-time Augmented Reality experience that uses your webcam to track facial landmarks and render dynamic eye laser effects — powered entirely in the browser with no backend required.
-
+An immersive AI-powered Eye Tracking AR experience built using MediaPipe Face Mesh, HTML5 Canvas, CSS3, and JavaScript.
+Track your face and eye movements in real time while generating futuristic laser beams, matrix-style animations, particle effects, dynamic themes, and audio-reactive visuals.
 ---
 
-## 🌐 Live Demo
-
+##🤖 Live demo
+```bash
+https://github.com/codertheashish/AI-Connect.git
+```
+---
 
 ---
 
 ## ✨ Features
 
-- 👁️ Real-time iris & eye tracking via MediaPipe Face Mesh
-- ⚡ Dynamic eye laser beams that follow your head direction
-- 🌈 5 switchable visual themes (Rainbow, Cyberpunk, Lava, Ocean, Galaxy)
-- 🟩 Matrix-style animated background that reacts to head movement
-- 🔊 Ambient audio engine — hum frequency shifts with face motion
-- 💥 Physics-based particle effects at beam tips
-- 📊 Live HUD showing Face Detection status and FPS
-- 🎨 Glassmorphism UI with smooth transitions
-- 📱 Fully responsive — works on desktop and mobile browsers
+- 👁️ Real-Time Eye Tracking
+- 🤖 AI Face Mesh Detection
+- ⚡ Dynamic Eye Laser Effects
+- 🌈 Multiple Visual Themes
+- 🌌 Matrix Rain Background
+- ✨ Interactive Particle System
+- 🔊 Audio Reactive Effects
+- 📊 FPS Monitoring
+- 🎨 Glassmorphism UI
+- 📷 Webcam-Based Tracking
+- 📱 Responsive Design
 
 ---
 
-## 📂 Project Structure
+## 🎨 Available Themes
 
-```
-eye-tracking-ar/
-├── index.html       
-├── style.css        
-└── script.js        
-```
+- 🌈 Rainbow
+- 💜 Cyberpunk
+- 🌋 Lava
+- 🌊 Ocean
+- 🌌 Galaxy
 
 ---
 
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
-|---|---|
-| HTML5 Canvas | Dual-layer rendering (background + effects) |
-| CSS3 | Glassmorphism UI, layered canvas layout |
-| JavaScript (ES6+) | Render loop, physics, audio, face processing |
-| MediaPipe Face Mesh | 468+ facial landmark detection with iris refinement |
-| Web Audio API | Reactive ambient sound engine |
+|------------|---------|
+| HTML5 | Structure |
+| CSS3 | Styling |
+| JavaScript | Logic & Effects |
+| MediaPipe Face Mesh | Face & Eye Tracking |
+| Canvas API | Visual Rendering |
+| Web Audio API | Sound Effects |
 
 ---
 
-## 🚀 How It Works
+## 📂 Project Structure
 
-1. Click **"Dive In"** and grant camera permissions.
-2. MediaPipe Face Mesh detects **468 facial landmarks** in real time.
-3. Iris points (`468` left, `473` right) determine eye center positions.
-4. Eye openness ratio (vertical / horizontal diameter) controls laser intensity.
-5. Head pose (nose tip vs face center offset) determines laser beam direction.
-6. Both eyes shoot **parallel beams** in the exact direction you face.
-7. Head movement velocity drives **Matrix rain speed** and **audio pitch**.
-
----
-
-## 🎨 Themes
-
-| Theme | Description |
-|---|---|
-| 🌈 Rainbow | Full HSL color cycle |
-| 🔴 Cyberpunk | Alternating red `#ff003c` and cyan `#00f0ff` |
-| 🔥 Lava | Warm orange-red hues with animated brightness |
-| 🌊 Ocean | Cool blue-teal spectrum |
-| 🌌 Galaxy | Deep purple hues with sine-wave variation |
-
-Switch themes live using the pill buttons at the bottom of the screen.
-
----
-
-## ⚙️ Eye Laser Effect — Technical Details
-
-```
-Openness Ratio  = vertical eye height / horizontal eye width
-Laser Intensity = clamp((openness − 0.12) / 0.22,  0, 1)
-Beam Length     = 320px × intensity
-Direction       = head facing direction (nose offset from face center)
+```text
+AI-Connect/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 ```
 
-Each beam is rendered in **3 layers**: outer bloom → mid glow → white-hot core, plus an iris dot and halo ring using Canvas2D `screen` composite blending.
-
 ---
 
-# Clone Repository
+
+### Clone Repository
 
 ```bash
-https://github.com/your-username/AR-Eye-Tracking
+https://github.com/codertheashish/AR-Eye-Tracking
+```
 
 
 ---
 
-## 🔮 Future Enhancements
+## 🎮 How To Use
 
-- [ ] Blink detection to trigger special effects
-- [ ] Multi-face support (up to 4 simultaneous faces)
-- [ ] Gaze direction mapped to screen coordinates
-- [ ] Mobile rear-camera support
-- [ ] WebGL renderer for higher performance
-- [ ] Shareable theme presets
+1. Open the website.
+2. Click **Dive In**.
+3. Allow camera permission.
+4. Move your face and eyes.
+5. Watch eye lasers, particles, and matrix effects react in real time.
+6. Switch themes from the bottom control panel.
 
 ---
 
-## 🌐 Browser Compatibility
+## 🌟 Main Highlights
 
-| Browser | Support |
-|---|---|
-| Chrome 88+ | ✅ Full support |
-| Edge 88+ | ✅ Full support |
-| Firefox | ⚠️ Limited (WebRTC permissions may vary) |
-| Safari | ⚠️ Requires enabling camera permissions manually |
+### Eye Tracking
+Tracks eye position and iris movement using MediaPipe Face Mesh.
+
+### Laser Effects
+Projects dynamic laser beams from both eyes based on head direction.
+
+### Matrix Background
+Animated matrix rain reacts to movement speed.
+
+### Particle Engine
+Creates real-time glowing particle effects.
+
+### Audio Engine
+Generates dynamic sound based on face movement intensity.
+
+### Theme Engine
+Switch instantly between multiple visual styles.
+
+---
+
+## ⚠️ Requirements
+
+- Chrome (Recommended)
+- Webcam Access
+- Internet Connection
+- Hardware Acceleration Enabled
+
+---
+
+## 🔮 Future Improvements
+
+- Hand Gesture Control
+- Voice Commands
+- AR Object Interaction
+- Head Pose Analytics
+- Multiplayer Experience
+- VR Support
 
 ---
 
@@ -123,13 +135,13 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-**Ashish Kumar Prajapati**
-GitHub: https://github.com/codertheashish
+### Ashish Kumar Prajapati
+
+- GitHub:
+https://github.com/codertheashish
+- LinkedIn:
+https://www.linkedin.com/in/ashish-kumar-prajapati-3b6858301
 
 ---
 
-⭐ If you found this project cool, consider giving it a star on GitHub!
-```
-
----
-
+⭐ If you like this project, give it a star on GitHub.
